@@ -1,1 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700|Playball:100,200,300,400,500,600,700&display=swap');
 
+/*Colours*/
+
+.bg-color-name-title{
+    background-color: #6fb17a;
+}
+
+.ui-menu-color-home{
+    background-color: #FF8110;
+}
+
+.ui-menu-color-home a{
+    color: #64C8DE;
+}
+
+.ui-menu-color-resume{
+    background-color: #a422e6;
+}
+
+.ui-menu-color-resume a{
+    color: #d1ff33;
+}
+
+.ui-menu-color-contact{
+    background-color: #cadc35;
+}
+
+.ui-menu-color-contact a{
+    color: #a733ff;
+}
+
+.ui-menu-color-download{
+    background-color: #5a8c63;
+}
+
+.ui-menu-color-download a{
+    color: #ff0d1e;
+}
+
+/*Headings*/
+
+header{
+    margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../img/Armand.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    background-color: #6a9c72; 
+}
+
+.name{
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #a01a2c;
+}
+
+.title{
+    font-family: "Playball", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #801725;
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+}
+
+.menuitem a i{
+    padding-top: 22px;
+    display: block;
+    font-size: 26px;
+    color: #fafafa;
+}
+
+.menuitem a span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*Hover.css*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
