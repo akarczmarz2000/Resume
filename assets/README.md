@@ -9,3 +9,9 @@ Underneath the title and name there is another section which is the navigation b
 The image that has been added in will be used like a logo acrose the website therefore it has been linked to direct to the home page.
 The colors chosen are ment to sperate each area, the different shades of green to distinges the header change. The colors of the navigation text and the navigation boxes where choosen to complement each other.
 Also animation has been added to the navigation boxes which is working well, but a fade in animation was also added to the logo and it isn't working in this current version.
+
+##v0.2 - Footer Complete
+In this version a footer has been added.
+In this footer there is a about section which is a condenced version of the information on the about page.
+There is also a download section which like the navigation download link is connected to a tradional version of a CV.
+Finally there is a social section which icons which will link to the customers social profiles.
