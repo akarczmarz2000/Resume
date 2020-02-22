@@ -25,3 +25,10 @@ Then the page was divided into three sections; the first was a work history sect
 The work history section has a timeline going down the page that displays the past companies they have worked for, the job titles while working there and the time they worked there.
 The second section explains a little about what their front-end development skills do; the third does the same for back-end development.
 Finally on this page is a progress bar of how good they are at each coding language in comparison to the other languages they know.
+
+##v0.45 - Contacts Page Complete
+In this version, the header and footer from the home page were imported.
+On this page there is a contact form that asks for (and requires) a name, a email and the project that they would like to work on.
+
+##v0.5 - Download Links added
+The link to the downloadable CV has been added to all relevant locations through out the website

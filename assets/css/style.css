@@ -6,16 +6,20 @@
     background-color: #6fb17a;
 }
 
-.bg-color-three-reasons {
+.bg-color-three-reasons{
     background-color: #fff;
 }
 
-.bg-color-personal-info {
+.bg-color-personal-info{
     background-color: #f4f4f4;
 }
 
-.bg-color-work-history {
+.bg-color-work-history{
     background-color: #801725;
+}
+
+.bg-color-contact {
+    background-color: #fff;
 }
 
 .ui-menu-color-home{
@@ -50,7 +54,7 @@
     color: #ff0d1e;
 }
 
-/*Special paddings/margins/text */
+/*Special Paddings/Margins/Text*/
 
 h1,
 h2,
@@ -59,28 +63,28 @@ h4 {
     margin: 0;
 }
 
-.uppercase {
+.uppercase{
     text-transform: uppercase;
 }
 
-.general-sub {
+.general-sub{
     font-family: "Lobster", sans-serif;
     font-weight: 200;
     color: #801725;
 }
 
-.inline-block {
+.inline-block{
     display: inline-block;
 }
 
-.section-column {
+.section-column{
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
 }
 
 .history-heading,
-.section-heading {
+.section-heading{
     font-family: "Lobster", sans-serif;
     font-weight: 100;
     margin-top: 25px;
@@ -96,7 +100,7 @@ header{
     margin-left: 50px;
 }
 
-.logo {
+.logo{
     background: url("../img/Armand.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -181,14 +185,14 @@ header{
 
 /*Footer*/
 
-footer {
+footer{
     background-color: #6a9c72;
     color: #a01a2c;
     min-height: 120px;
     margin: 0;
 }
 
-.cv-pdf i {
+.cv-pdf i{
     font-size: 18px;
     color: #fafafa;
     text-align: center;
@@ -199,11 +203,11 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
+.cv-pdf i:hover{
     color: #406f47;
 }
 
-#footer-details {
+#footer-details{
     padding: 20px;
 }
 
@@ -233,12 +237,12 @@ footer {
 
 /*Three Reasons*/
 
-.three-reasons-icon {
+.three-reasons-icon{
     font-size: 26px;
     color: #007bff;
 }
 
-.three-reasons-heading {
+.three-reasons-heading{
     font-family: "Lobster", sans-serif;
     margin-bottom: 15px;
 }
@@ -251,24 +255,24 @@ footer {
 
 /*Personal Info*/
 
-.personal-info-item {
+.personal-info-item{
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
 
 .personal-info-item .key,
-.personal-info-item .value {
+.personal-info-item .value{
     padding-right: 8px;
     display: inline-block;
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p {
+.personal-info-item .value p{
     margin: 0;
 }
 
-.personal-info-item .key {
+.personal-info-item .key{
     font-size: 27px;
     width: 30%;
     margin-right: 21px;
@@ -277,11 +281,11 @@ footer {
     font-family: "Lobster", sans-serif;
 }
 
-.personal-info-item .key p {
+.personal-info-item .key p{
     font-weight: 500;
 }
 
-.personal-info-item .value {
+.personal-info-item .value{
     font-size: 25px;
     position: relative;
     width: 60%;
@@ -290,13 +294,13 @@ footer {
 
 /*Skills*/
 
-.progress {
+.progress{
     position: relative;
     height: 25px;
     margin-bottom: 4px;
 }
 
-.progress-type {
+.progress-type{
     position: absolute;
     left: 0px;
     font-weight: 300;
@@ -307,18 +311,18 @@ footer {
     font-size: 18px;
 }
 
-.progress-section {
+.progress-section{
     margin: 40px 20px;
 }
 
 /*Work History*/
 
-.history-heading {
+.history-heading{
     color: #fafafa;
     margin-bottom: 50px;
 }
 
-.timeline-item {
+.timeline-item{
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
@@ -326,7 +330,7 @@ footer {
     font-family: "Lobster", sans-serif;
 }
 
-.timeline-item p {
+.timeline-item p{
     padding: 0;
     margin: 0;
     font-size: 1.3em;
@@ -334,7 +338,7 @@ footer {
     font-weight: 100;
 }
 
-.timeline-item:before {
+.timeline-item:before{
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
@@ -347,7 +351,7 @@ footer {
     margin: 0;
 }
 
-.timeline-item:after {
+.timeline-item:after{
     width: 12px;
     height: 12px;
     display: block;
@@ -361,4 +365,41 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*Contact Form*/
+
+.contact-heading{
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: "Lobster ", sans-serif;
+}
+
+.ff {
+    font-family: "Lobster ", sans-serif;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/*Media Queries*/
+
+@media(min-width: 992px){
+    .center-form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
