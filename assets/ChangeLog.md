@@ -1,4 +1,7 @@
-# Resume - Armand J O Karczmarz - v0.61 - README.md Written Up
+# Resume - Armand J O Karczmarz - v0.61.2 - README.md Tests Written Up
+
+## v0.61.2 - README.md Tests Written Up
+The information about what I tested and the results from those tests that had been noted have been written up in full in the README.md.
 
 ## v0.61 - README.md Written Up
 A README.md file has been written up from notes except testing, it doesn't currnet contain the new things I would like to add and 
