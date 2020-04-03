@@ -1,38 +1,116 @@
-# Resume - Armand J O Karczmarz v0.6 - Interested Page Added
+# Resume - Armand J O Karczmarz - v0.61 README.md Written Up
 
-## Intial Commit
-This was the first commit completed with the essential boilerplate had been added to the website.
+This site is designed to show my coding skills in the website itself and it's different features. 
+Then the information on the page will detail my previous work, my interests, my skill, a way to contact me and finally a downloadable CV.\
+To help convey the information I will install a map that shows the different locations of the conferences and meetups I have attended. 
+An email, with the required details to get back in touch with potential employers, will be sent from contact page through a contact form.
+My previous work will be show through a link to my github repositories, I would like it to be displayed on the page itself but it maybe a link to my github.\
+Finally I hope to design the page layout and colour scheme to show my skill in this department to engage employers and other people interests in my work.
 
-## v0.1 - Header Complete
-In this version, the header has been completed. The header has been styled by splitting it into the appropriate section, one section with a photo and the other more significant part with the name of the customer and their title.\
-Underneath the title and name, there is another section which is the navigation bar; this has also been styled in a wanted manner. The links currently work, but there is no content on the other pages.\
-The image that has been added in will be used as a logo across the website; therefore, it has been linked to direct to the home page.\
-The colours chosen are meant to sperate each area, the different shades of green to distinguish the header change—the colours of the navigation text and the navigation boxes were chosen to complement each other.\
-Also, animation has been added to the navigation boxes which is working well, but a fade-in animation is also added to the logo, and it isn't working in this current version.
+### Version Information
+Version Information is in the change log in the assets folder
 
-## v0.2 - Footer Complete
-In this version, a footer has been added.
-In this footer, there is an about section which is a condensed version of the information on the about page.\
-There is also a download section which like the navigation download link is connected to a traditional version of a CV.\
-Finally, there is a social section which icons which will link to the customers' social profiles.
+## UX
+These are the users I am thinking off:-
 
-## v0.3 - Personal Section Complete
-In this section is all the information relevant to contacting the customer clearly and well presented on the home screen underneath the customers' photo.
+* Employers - I want to make the information they need easy to see and access with feature that help them to use this. 
+i.e I am thinking of a employer user looking for my contact details, examples of my other works and the accessablity to meet up
+and talk about single jobs or contracts
 
-## v0.4 - Resume Page Complete
-In this version, the header and footer from the home page were imported.\
-Then the page was divided into three sections; the first was a work history section, the second was a front-end development section, and the third was about back-end development.\
-The work history section has a timeline going down the page that displays the past companies they have worked for, the job titles while working there and the time they worked there.\
-The second section explains a little about what their front-end development skills do; the third does the same for back-end development.\
-Finally on this page is a progress bar of how good they are at each coding language in comparison to the other languages they know.
+* Peers - I want to make my work easily accessable and have a way to contact me. i.e I am thinking of fellow coders wanting to see
+my coding and possible use, ask for permition to use my code and have a way to ask to work with me on their projects
 
-## v0.45 - Contacts Page Complete
-In this version, the header and footer from the home page were imported.\
-On this page there is a contact form that asks for (and requires) a name, a email and the project that they would like to work on.
+## Features
+* Index Page
+    * About Me section
+        * I want a section that gives a small summery of what I do, mostly my skills
+        * I want a seciton that gives a small summery of how I do my job, how I schedule my work
+        how I work or have worked in teams and my methods of coding (structure and practice)
+        * Finally I would like a section that gives a small summery of why they should hire me
+    * Personal Information section
+        * My full name
+        * My home addess, possible bussiness address in the future
+        * Ways to contactm me, email and phone number
 
-## v0.5 - Download Links added
-The link to the downloadable CV has been added to all relevant locations through out the website
+* Resume Page
+    * My Skills section 
+        * A description of my frontend development skills
+        * A description of my backend development skills
+        * A way to show how confidant I feel in the coding languages I know
+    * Work History section
+        * I would like a timeline of the different companys or contracts I have done
+        * I would like my title at that job desplayed
+        * I would like contact details of the bussiness if they are okay giving a reference
 
-## v0.6 - Interested Page Added
-The inital structure of the page has been imported from index.html and will be edited in the future for the correct content.\
-README.md will be changed into change logs and a formal and full README.md will be written up, likely to be next git push.
+* Contact Page
+    * I need a form that asks for the input from the user
+        * It must ask for the users email
+        * It must ask for the users name
+        * Finally it must ask for input of information detailing the reason for contacting me
+            * For contracts, collabiration or other requests
+    * I need a submit button that sends this information as a email to my email
+
+* Download Link
+    * A navigaton and footer link that downloads my CV from the assets section of the page
+
+### Existing Features
+* Index Page
+    * About Me section
+        * I want a section that gives a small summery of what I do, mostly my skills
+        * I want a seciton that gives a small summery of how I do my job, how I schedule my work
+        how I work or have worked in teams and my methods of coding (structure and practice)
+        * Finally I would like a section that gives a small summery of why they should hire me
+    * Personal Information section
+        * My full name
+        * My home addess, possible bussiness address in the future
+        * Ways to contactm me, email and phone number
+
+* Resume Page
+    * My Skills section 
+        * A description of my frontend development skills
+        * A description of my backend development skills
+        * A way to show how confidant I feel in the coding languages I know
+    * Work History section
+        * I would like a timeline of the different companys or contracts I have done
+        * I would like my title at that job desplayed
+        * I would like contact details of the bussiness if they are okay giving a reference
+
+* Contact Page
+    * I need a form that asks for the input from the user
+        * It must ask for the users email
+        * It must ask for the users name
+        * Finally it must ask for input of information detailing the reason for contacting me
+            * For contracts, collabiration or other requests
+    * I need a submit button that sends this information as a email to my email
+
+* Download Link
+    * A navigaton and footer link that downloads my CV from the assets section of the page
+
+### Features Left to Implement
+* Index Page
+    * Complete Structure - Needs personal information adding
+
+* Resume Page
+    * Complete Structure - Needs personal information adding
+
+* Contact Page
+    * Complete Structure - Needs personal information adding
+
+* Download Link
+    * Complete Link - Needs a CV in the assets area to link to
+	
+## Technologies Used
+
+* Font Awesome
+    * Used to improve UX, gives context to titles and hyperlinks
+
+* Hover.css
+    * This is used to apply effects to the buttons for a better UX, shows a response to their input so they know there input has been processed
+
+* Bootstrap
+    * The website uses bootstrap for easy feature addition
+
+## Testing
+* Requires writing up notes have been taken
+
+## Reference
