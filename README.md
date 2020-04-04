@@ -1,4 +1,4 @@
-# Resume - Armand J O Karczmarz - v0.64 - Git Hub page added
+# Resume - Armand J O Karczmarz - v0.65 - Github JS Created
 
 This site is designed to show my coding skills in the website itself and it's different features. 
 Then the information on the page will detail my previous work, my interests, my skill, a way to contact me and finally a downloadable CV.\

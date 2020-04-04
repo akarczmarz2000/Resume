@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/github-styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/github-information.js"></script>
 </head>
 
 <body>
@@ -62,7 +65,19 @@
 			</div>
 		</div>
 	</header>
-	 
+	 <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+                <div class="center-form">
+                    <input type="text" id="gh-username" value="akarczmarz2000" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 	<!--- Footer --->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">

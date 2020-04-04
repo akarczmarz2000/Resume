@@ -1,4 +1,9 @@
-# Resume - Armand J O Karczmarz - v0.64 - Git Hub page added
+# Resume - Armand J O Karczmarz - v0.65 - Github JS Created
+
+## v0.65 - Github JS Created
+Loader gif added css.\
+Github github-information.js has been created and added to.\
+Github style.css created and added to.
 
 ## v0.64 - Git Hub page added
 Git Hub page has been added with the base of one of the other page.\
