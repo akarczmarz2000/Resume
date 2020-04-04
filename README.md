@@ -1,4 +1,4 @@
-# Resume - Armand J O Karczmarz - v0.61.2 - README.md Tests Written Up
+# Resume - Armand J O Karczmarz - v0.62 - Interests Structure complete
 
 This site is designed to show my coding skills in the website itself and it's different features. 
 Then the information on the page will detail my previous work, my interests, my skill, a way to contact me and finally a downloadable CV.\
@@ -53,6 +53,13 @@ my coding and possible use, ask for permition to use my code and have a way to a
 * Download Link
     * A navigaton and footer link that downloads my CV from the assets section of the page
 
+### New Features
+* Interests Page
+    * I'd like a map that shows the conferences and meetups I have attended
+        * Idealy I'd like a google maps interactive map with the markers on
+    * I'd like the rest of the page to be populated by my interests, i.e. groups I attend and I am interested in
+        * These will be coding groups not my personal interests to keep the target audiances focus on my coding enthusiasm and skill
+
 ### Existing Features
 * Index Page
     * About Me section
@@ -86,6 +93,16 @@ my coding and possible use, ask for permition to use my code and have a way to a
 * Download Link
     * A navigaton and footer link that downloads my CV from the assets section of the page
 
+* Interests page
+    * A Conferences and Meetups section
+        * I would like a bold title
+    * Interests section
+        * Idealy I would like to split this into four sections these sections need:-
+            * Bold headers to seperate them
+            * A ruff description of the organisation/group
+            * Why I like to work for/with them
+            * A link to more information about these groups
+
 ### Features Left to Implement
 * Index Page
     * Complete Structure - Needs personal information adding
@@ -98,6 +115,13 @@ my coding and possible use, ask for permition to use my code and have a way to a
 
 * Download Link
     * Complete Link - Needs a CV in the assets area to link to
+
+* Interests page
+    * A Conferences and Meetups section
+        * I would like a map that use the google maps api to show the locations
+        of the previous conferences and meetups
+    * Interests section
+        * The structure is complete but personal information needs to be added
 	
 ## Technologies Used
 
@@ -111,7 +135,7 @@ my coding and possible use, ask for permition to use my code and have a way to a
     * The website uses bootstrap for easy feature addition
 
 ## Testing
-* Ratios in smaller screens
+1. Ratios in smaller screens
     * On smaller screens I tested if things looked natural the ratios I tested where:-
         * 360 x 640 and 640 x 360
             * Intially I had an issue with:-
@@ -134,19 +158,24 @@ my coding and possible use, ask for permition to use my code and have a way to a
             but afer consideration I changed the icon size slightly to look slightly small on all sizes which resolved this issue
         * PC Screen with varying window sizes (transition between sizes)
             * After the corrections made on the smaller screens I couldn't see any issues with the transitions or the maximum size window
-* Hover effect on buttons
+2. Hover effect on buttons
     * When testing I noticed that on smaller screens that covered up some of the buttons underneathe it, 
       for example home slightly covered up contracts
         * To fix this I have reduced there slide down size slightly which has removed this issue
     * When they slide down the colour didn't look entirely right as I left it to a grey from some of my other code
         * To make a better apperance I change it to a black with low opacity, 
         so that it looked like a shadow
-* Links
+3. Links
     * I check that all links went to the correct locations
         * These all worked except the index.html link which I forgot to change for some pages and was fixed
         * Download link couldn't be check as it currently has nothing to download
-* Form Functional
+4. Form Functional
     * It appears to take the data correctly and refuses to submit unless there is data in all fields which is the desired result
         * This will be tested further once the link to my email is done
+5. Testing links to and from Interests page
+    * All working correctly and the spacing looks okay colour needs to be added to it's navigation button
+    * The Interests page orignally didn't look correct when opened using the navigation bar
+        * After investigation I had forgoten to change the CSS link after importing from index.html
+            * This has been rectified
 
 ## Reference

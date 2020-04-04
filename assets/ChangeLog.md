@@ -1,4 +1,9 @@
-# Resume - Armand J O Karczmarz - v0.61.2 - README.md Tests Written Up
+# Resume - Armand J O Karczmarz - v0.62 - Interests Structure complete
+
+## v0.62 - Interests Structure complete
+The main structure of the Interests page
+Navigation was updated to have a Interests and a Git Hub navigation button added
+Ground work for the google map api is started
 
 ## v0.61.2 - README.md Tests Written Up
 The information about what I tested and the results from those tests that had been noted have been written up in full in the README.md.
