@@ -46,6 +46,14 @@
     color: #a733ff;
 }
 
+.ui-menu-color-interests{
+    color: #FF243F
+}
+
+.ui-menu-color-interests a{
+    color: #fff
+}
+
 .ui-menu-color-download{
     background-color: #5a8c63;
 }
