@@ -1,4 +1,4 @@
-# Resume - Armand J O Karczmarz - v0.62 - Interests Structure complete
+# Resume - Armand J O Karczmarz - v0.63 - Map Added
 
 This site is designed to show my coding skills in the website itself and it's different features. 
 Then the information on the page will detail my previous work, my interests, my skill, a way to contact me and finally a downloadable CV.\
@@ -96,6 +96,8 @@ my coding and possible use, ask for permition to use my code and have a way to a
 * Interests page
     * A Conferences and Meetups section
         * I would like a bold title
+        * I would like a map that use the google maps api to show the locations
+        of the previous conferences and meetups
     * Interests section
         * Idealy I would like to split this into four sections these sections need:-
             * Bold headers to seperate them
@@ -118,8 +120,7 @@ my coding and possible use, ask for permition to use my code and have a way to a
 
 * Interests page
     * A Conferences and Meetups section
-        * I would like a map that use the google maps api to show the locations
-        of the previous conferences and meetups
+        * Complete, personal locations needed to be added
     * Interests section
         * The structure is complete but personal information needs to be added
 	
@@ -177,5 +178,13 @@ my coding and possible use, ask for permition to use my code and have a way to a
     * The Interests page orignally didn't look correct when opened using the navigation bar
         * After investigation I had forgoten to change the CSS link after importing from index.html
             * This has been rectified
-
+6. Testing Map
+    * Map move and zooms
+        * The API runs correctly
+    * Locations added are show and zoomable
+        * When the compressed location are click, 
+        it zooms in and any locations that are closed together will still be compressed 
+        and have the same click features 
+    * Zoom resets
+        * The zoom of the map resets to the orignal zoom that shows the a lot of countries
 ## Reference

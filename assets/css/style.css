@@ -47,7 +47,7 @@
 }
 
 .ui-menu-color-interests{
-    color: #FF243F
+    background-color: #FF243F
 }
 
 .ui-menu-color-interests a{
@@ -399,6 +399,11 @@ button[type="submit"]{
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+/* Google Map */
+
+div #map {
+    min-height: 360px;
 }
 
 /*Media Queries*/

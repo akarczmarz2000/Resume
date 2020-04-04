@@ -1,4 +1,9 @@
-# Resume - Armand J O Karczmarz - v0.62 - Interests Structure complete
+# Resume - Armand J O Karczmarz - v0.63 - Map Added
+
+## v0.63 - Map Added
+Google map API finished installing and has the locations added.\
+They have a click zoom that zooms closer to the tagged locations.\
+The style.css has got map styling added.
 
 ## v0.62 - Interests Structure complete
 The main structure of the Interests page
