@@ -1,4 +1,8 @@
-# Resume - Armand J O Karczmarz - v0.63 - Map Added
+# Resume - Armand J O Karczmarz - v0.64 - Git Hub page added
+
+## v0.64 - Git Hub page added
+Git Hub page has been added with the base of one of the other page.\
+The page will be added to in the next update.
 
 ## v0.63 - Map Added
 Google map API finished installing and has the locations added.\
