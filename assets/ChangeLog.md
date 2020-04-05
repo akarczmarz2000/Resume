@@ -1,4 +1,13 @@
-# Resume - Armand J O Karczmarz - v0.65 - Github JS Created
+# Resume - Armand J O Karczmarz - v0.67 - github.html Added To
+
+## v0.67 - github.html Added To
+The github.html has had the search function fixed and is working currently.\
+Althought currently on occasion it seems to say something about limit hit, 
+I will look into this further and see if it can be fixed. I.e it works but,
+at times stops working sometimes.
+
+## v0.66 - Github JS Updated
+Guthub Jarv Script updated.
 
 ## v0.65 - Github JS Created
 Loader gif added css.\

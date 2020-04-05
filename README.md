@@ -1,4 +1,4 @@
-# Resume - Armand J O Karczmarz - v0.65 - Github JS Created
+# Resume - Armand J O Karczmarz - v0.67 - github.html Added To
 
 This site is designed to show my coding skills in the website itself and it's different features. 
 Then the information on the page will detail my previous work, my interests, my skill, a way to contact me and finally a downloadable CV.\
@@ -178,7 +178,7 @@ my coding and possible use, ask for permition to use my code and have a way to a
     * The Interests page orignally didn't look correct when opened using the navigation bar
         * After investigation I had forgoten to change the CSS link after importing from index.html
             * This has been rectified
-6. Testing Map
+6. Testing map
     * Map move and zooms
         * The API runs correctly
     * Locations added are show and zoomable
@@ -187,4 +187,22 @@ my coding and possible use, ask for permition to use my code and have a way to a
         and have the same click features 
     * Zoom resets
         * The zoom of the map resets to the orignal zoom that shows the a lot of countries
+7. Testing Github search bar
+    * I changed the inputed name in the seach bar to test the search Functional
+        * Intially this function wasn't working and was only displaying the loading function
+        * Howevere this was fixed after reading the console and noticing there was a loading issue with the JQuery
+            * To ammend this I removed the duplicate JQuery link in the bottom of the page, this fixed the issue
+    * I tested the repo links
+        * After repairing the JQuery issue these link where show and are shown for users when changing the username in the search bar
+        * They work correctly although when testing this I managed to hit a request limit
+    * Tested the navigation link to the other pages
+        * Links to the other pages works fine,
+        but the Github navigation button needs some colour styling still as it has none currently
+    * The link on the image and user tag name was tested to see if it would open the users Github profile page
+        * After repairing the JQuery issue the user image and name where show and are shown for users when changing the username in the search bar
+        * They work correctly although when testing this I managed to hit a request limit
+    * Finally the information for follower, following and repo was tested with different users
+        * After repairing the JQuery issue these where show and are shown for users when changing the username in the search bar
+        * They work correctly although when testing this I managed to hit a request limit
+
 ## Reference
